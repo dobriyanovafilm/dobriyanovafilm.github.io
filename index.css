@@ -61,3 +61,7 @@ p {
 	padding-right: 350px;
 	color: white;
 }
+
+th.ots:hover{
+	background-color: black;
+}
