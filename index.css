@@ -71,7 +71,7 @@ display: flex;
  justify-content: center;
 }
 
-li {
+li.ots {
 	 list-style: none;
  padding: 10px;
 text-decoration: none;
@@ -82,7 +82,7 @@ text-decoration: none;
 margin-right: 10px;
 }
 
-li:before{
+li.ots a::before{
  content: '';
  width: 0;
  height: 3px;
@@ -94,8 +94,7 @@ li:before{
  mix-blend-mode: multiply;
 }
 
-li{
-:after{
+li.ots a::after{
  content: '';
  width: 0;
  height: 3px;
