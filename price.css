@@ -214,4 +214,13 @@ a:active {
 	margin: 0;
 	padding: 0;
 	font-family: "Monotype Corsiva";
-}
+	left: 170px;  
+	top: 0px; 
+	font-size: 16px;
+	text-indent: 0px;
+	position: absolute;
+	color: white;
+	text-shadow: black 1px 1px 1px,
+	#4d4c4c 1px 1px 0, #4d4c4c -1px -1px 0, 
+                 #4d4c4c -1px 1px 0, #4d4c4c 1px -1px 0;
+} 
