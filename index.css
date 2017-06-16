@@ -58,7 +58,28 @@ p {
 
 .ots {
 	padding-left: 90px;
-	padding-right: 300px;
+	padding-right: 350px;
 	color: white;
 }
 
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	border-bottom: .07em solid;
+	text-decoration: underline;
+}
+
+a:active {
+	color: white;
+	border-bottom: 1px dashed;
+	text-decoration: none;
+}
